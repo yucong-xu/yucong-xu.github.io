@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yucong XU - Personal Academic Website</title>
+    <link rel="stylesheet" href="css/style.css">
+    <!-- Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-brand">Yucong XU</div>
+            <button class="nav-toggle" onclick="toggleMenu()">
+                <i class="fas fa-bars"></i>
+            </button>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="education.html">Education</a></li>
+                <li><a href="publications.html">Publications</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="honors.html">Honors</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Header Section -->
+    <header class="header-section">
+        <div class="header-content">
+            <h1 class="header-name">Yucong XU</h1>
+            <p class="header-chinese">徐宇聪</p>
+            <div class="header-contact">
+                <span><i class="fas fa-phone"></i> +86 15367487397</span>
+                <span><i class="fas fa-envelope"></i> yucong-xu@hku.hk</span>
+            </div>
+            <span class="header-badge">Hong Kong Top Talent Pass Scheme</span>
+            <div class="header-links">
+                <a href="https://scholar.google.com" target="_blank"><i class="fas fa-graduation-cap"></i> Google Scholar</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="container">
+        <!-- Introduction Section -->
+        <section class="intro-section">
+            <h2 class="page-title">Welcome</h2>
+            <p class="intro-text">
+                I am a PhD candidate at the University of Hong Kong, focusing on <strong>Waste management</strong>,
+                <strong>Circularity</strong>, and <strong>Multi-objective synergy</strong>. With a strong background in
+                new energy science and engineering, I am passionate about developing sustainable solutions for
+                clean energy development challenges.
+            </p>
+            <p class="intro-text">
+                My research aims to bridge the gap between environmental sustainability and technological innovation,
+                particularly in the areas of carbon capture, solar energy systems, and circular economy solutions
+                for renewable energy equipment.
+            </p>
+
+            <div class="quick-links">
+                <a href="education.html" class="quick-link">
+                    <i class="fas fa-university"></i>
+                    <span>Education</span>
+                </a>
+                <a href="publications.html" class="quick-link">
+                    <i class="fas fa-book"></i>
+                    <span>Publications</span>
+                </a>
+                <a href="projects.html" class="quick-link">
+                    <i class="fas fa-flask"></i>
+                    <span>Research Projects</span>
+                </a>
+                <a href="honors.html" class="quick-link">
+                    <i class="fas fa-award"></i>
+                    <span>Honors & Awards</span>
+                </a>
+            </div>
+        </section>
+
+        <!-- Research Interests -->
+        <section class="section">
+            <h3 class="section-title">
+                <span class="section-icon"><i class="fas fa-lightbulb"></i></span>
+                Research Interests
+            </h3>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h4><i class="fas fa-recycle"></i> Waste Management</h4>
+                    <ul>
+                        <li>Circular economy solutions</li>
+                        <li>Recycling technologies</li>
+                        <li>Material flow analysis</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h4><i class="fas fa-leaf"></i> Environmental Assessment</h4>
+                    <ul>
+                        <li>Life Cycle Assessment (LCA)</li>
+                        <li>Life Cycle Costing (LCC)</li>
+                        <li>Climate modeling</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h4><i class="fas fa-solar-panel"></i> Clean Energy</h4>
+                    <ul>
+                        <li>Solar thermal systems</li>
+                        <li>Carbon capture technology</li>
+                        <li>Energy efficiency optimization</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h4><i class="fas fa-chart-line"></i> Multi-objective Optimization</h4>
+                    <ul>
+                        <li>Structural optimization</li>
+                        <li>Performance modeling</li>
+                        <li>System simulation (COMSOL, FLUENT)</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills -->
+        <section class="section">
+            <h3 class="section-title">
+                <span class="section-icon"><i class="fas fa-tools"></i></span>
+                Skills & Languages
+            </h3>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <h4><i class="fas fa-language"></i> Languages</h4>
+                    <ul>
+                        <li>Mandarin (Native)</li>
+                        <li>English (TOEFL 98)</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h4><i class="fas fa-cogs"></i> Technical Skills</h4>
+                    <ul>
+                        <li>Life Cycle Assessment (LCA)</li>
+                        <li>Life Cycle Costing (LCC)</li>
+                        <li>Material Flow Analysis (MFA)</li>
+                        <li>Climate Modeling</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h4><i class="fas fa-laptop-code"></i> Software</h4>
+                    <ul>
+                        <li>COMSOL Multiphysics</li>
+                        <li>ANSYS FLUENT</li>
+                        <li>MATLAB</li>
+                        <li>Origin</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Latest Updates -->
+        <section class="section">
+            <h3 class="section-title">
+                <span class="section-icon"><i class="fas fa-bell"></i></span>
+                Latest Updates
+            </h3>
+            <div class="proj-card" style="border: none;">
+                <div class="proj-header">
+                    <span class="proj-title">Started PhD at University of Hong Kong</span>
+                    <span class="proj-time">Nov 2025</span>
+                </div>
+                <p style="color: #555;">
+                    Began doctoral studies focusing on upcycling solutions for retired wind power and photovoltaic
+                    equipment, developing low-carbon cement materials and climate scenario modeling for the Greater Bay Area.
+                </p>
+            </div>
+        </section>
+
+        <!-- Contact CTA -->
+        <section class="section" style="text-align: center; background: linear-gradient(135deg, #f0f4f8 0%, #e8eef5 100%);">
+            <h3 style="color: #1e3a5f; margin-bottom: 15px;">Interested in Collaboration?</h3>
+            <p style="color: #555; margin-bottom: 20px;">
+                I am always open to discussing research collaborations, academic opportunities, and innovative ideas
+                in sustainability and clean energy.
+            </p>
+            <a href="mailto:yucong-xu@hku.hk" style="display: inline-block; background-color: #1e3a5f; color: #fff; padding: 12px 30px; border-radius: 5px; font-weight: 500;">
+                <i class="fas fa-envelope"></i> Get in Touch
+            </a>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2025 Yucong XU. All rights reserved. |
+        <a href="mailto:yucong-xu@hku.hk">yucong-xu@hku.hk</a></p>
+    </footer>
+
+    <!-- Navigation Script -->
+    <script src="js/nav.js"></script>
+</body>
+</html>
